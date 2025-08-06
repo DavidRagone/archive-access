@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Archive Access",
+  "version": "1.0",
+  "description": "Redirects the current page to archive.is with the current URL.",
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Archive This Page"
+  },
+  "background": {
+    "service_worker": "content.js"
+  }
+}
+
